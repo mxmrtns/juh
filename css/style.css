@@ -7,7 +7,8 @@ header,section,footer,aside,nav,article,figure { display: block; }
     clear: both;
 }
 
-html {
+html,body {
+    height: 100%;
 }
 
 body {
@@ -22,7 +23,7 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 100vh;
+    height: 100%;
 }
 
 
